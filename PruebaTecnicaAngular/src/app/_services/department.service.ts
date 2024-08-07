@@ -13,8 +13,7 @@ export class DepartmentService {
   constructor(private http: HttpClient) { }
 
   getAll(): Observable<Department[]> {
-    return this.http.get<any>(this.apiUrl).pipe(
-      map(response => response.$values || [])  
+    return this.http.get<any>(this.apiUrl).pipe( 
     );
   } 
 }

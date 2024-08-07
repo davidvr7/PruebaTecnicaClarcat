@@ -18,11 +18,12 @@ namespace PruebaTecnicaAPI.Model
         [Required]
         public string email { get; set; }
           
-        public string phoneNumber { get; set; }   
-        public int? departmentId { get; set; }
+        public string phoneNumber { get; set; }
+         
+        public int departmentId { get; set; }
 
         [JsonIgnore]
-        public Department department { get; set; }
+        public Department? department { get; set; }
     }
 }
  

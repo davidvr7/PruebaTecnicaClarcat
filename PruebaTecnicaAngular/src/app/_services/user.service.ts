@@ -14,8 +14,7 @@ export class UserService {
 
   getUserDepartment(department: string): Observable<User[]> {
     const url = `${this.apiUrl}/department/${department}`;
-    return this.http.get<any>(url).pipe(
-      map(response => response.$values || [])  
+    return this.http.get<any>(url).pipe( 
     );
   }
 
@@ -31,7 +30,7 @@ export class UserService {
 
   update(user: User): Observable<void> {
     const url = `${this.apiUrl}/${user.id}`;
-    return this.http.put<void>(url, user);
+    return this.http.patch<void>(url, user);
   }
 
   create(user: User): Observable<User> {

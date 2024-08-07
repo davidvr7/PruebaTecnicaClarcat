@@ -33,23 +33,45 @@ namespace PruebaTecnicaAPI.Controllers
         public async Task<ActionResult<IEnumerable<User>>> GetUsersByDepartment(string departmentName)
         {
             var users = await _context.Users
-         .Include(u => u.department) 
-         .Where(u => u.department.name == departmentName)
-         .ToListAsync();
+                .Include(u => u.department)
+                .Where(u => u.department.name == departmentName)
+                .Select(u => new
+                {
+                    u.id,
+                    u.firstName,
+                    u.lastName,
+                    u.email,
+                    u.phoneNumber,
+                    u.department 
+                })
+                .ToListAsync();
 
             return Ok(users);
         }
 
-        // PUT: api/Users/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchUser(int id, User user)
         {
             if (id != user.id)
             {
-                return BadRequest();
+                return BadRequest("ID mismatch");
+            } 
+
+            // Obtener el usuario existente
+            var existingUser = await _context.Users.FindAsync(id);
+            if (existingUser == null)
+            {
+                return NotFound();
             }
 
-            _context.Entry(user).State = EntityState.Modified;
+            // Actualizar los campos necesarios
+            existingUser.firstName = user.firstName;
+            existingUser.lastName = user.lastName;
+            existingUser.email = user.email;
+            existingUser.phoneNumber = user.phoneNumber; 
+
+            _context.Entry(existingUser).State = EntityState.Modified;
 
             try
             {
@@ -70,14 +92,27 @@ namespace PruebaTecnicaAPI.Controllers
             return NoContent();
         }
 
+
         // POST: api/Users
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            // Log para depuración
+            Console.WriteLine($"Received user data: {user.firstName}, {user.lastName}, {user.email}, {user.departmentId}");
+
+            // Verificar existencia del departamento
+            var department = await _context.Departments.FindAsync(user.departmentId);
+            if (department == null)
+            {
+                return BadRequest("Invalid department ID.");
+            }
+
             _context.Users.Add(user);
-            await _context.SaveChangesAsync(); 
+            await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetUser), new { id = user.id }, user);
         }
+
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]

@@ -58,11 +58,12 @@ export class ListUserComponent implements OnInit {
         console.error('Error loading users:', error);
         return of([]);
       }),
-      finalize(() => {
+      finalize(() => { 
         console.log('Request complete'); 
       })
     ).subscribe(users => {
       this.dataSource.data = users;
+      console.log(users)
     });
   } 
 
@@ -111,14 +112,17 @@ export class ListUserComponent implements OnInit {
       const user = this.userForm.value as User;
       this.userService.update(user).pipe(
         catchError(error => {
-          console.error('Error updating user:', error); 
-          return of(false);  
+          console.error('Error updating user:', error);
+          return of(false);  // Retorna un observable con `false` en caso de error
         }),
-        finalize(() => console.log('Update request complete'))  
+        finalize(() => {
+          console.log('Update request complete'); 
+          this.loadUsers(this.department);  
+          this.hideModal();  
+        })
       ).subscribe(success => {
-        if (success) {
-          this.loadUsers(this.department);
-          this.hideModal();
+        if (success) { 
+          console.log('User updated successfully');
         }
       });
     }

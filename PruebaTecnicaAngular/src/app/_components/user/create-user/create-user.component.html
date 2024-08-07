@@ -27,6 +27,16 @@
           <input type="text" id="phoneNumber" formControlName="phoneNumber" class="form-control">
          
         </div> 
+        <div class="mb-3">
+          <label for="departmentId" class="form-label">Department</label>
+          <select id="departmentId" formControlName="departmentId" class="form-select">
+            <option value="">Select a department</option>
+            <option *ngFor="let department of departments" [value]="department.id">{{ department.name }}</option>
+          </select>
+          <div *ngIf="userForm.get('departmentId')?.invalid && userForm.get('departmentId')?.touched" class="text-danger">
+            The department field is required.
+          </div>
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" routerLink="/">Back</button>
           <button type="submit" class="btn btn-primary-manual ms-1" [disabled]="userForm.invalid"><span>Create</span></button>

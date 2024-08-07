@@ -5,8 +5,7 @@ import { CreateUserComponent } from './_components/user/create-user/create-user.
 import { PageNotFoundComponent } from './_components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home/HR', pathMatch: 'full' },
-  { path: 'home', component: ListUserComponent},
+  { path: '', redirectTo: '/home/HR', pathMatch: 'full' }, 
   { path: 'home/:department', component: ListUserComponent},
   { path: 'create-user', component: CreateUserComponent },
   { 
