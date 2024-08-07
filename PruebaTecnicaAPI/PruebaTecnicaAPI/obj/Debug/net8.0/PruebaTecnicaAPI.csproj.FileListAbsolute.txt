@@ -58,6 +58,7 @@ C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debu
 C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.csproj.CoreCompileInputs.cache
 C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.sourcelink.json
 C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\david\Desktop\Prueba Tecnica\PruebaTecnicaAPI\PruebaTecnicaAPI\obj\Debug\net8.0\staticwebassets\msbuild.PruebaTecnicaAPI.Microsoft.AspNetCore.StaticWebAssets.props

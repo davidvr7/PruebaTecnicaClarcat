@@ -1,14 +1,28 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace PruebaTecnicaAPI.Model
 {
     public class User
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Password { get; set; }
+        [Key]
+        public int id { get; set; }
+
+        [Required]
+        public string firstName { get; set; }
+
+        [Required]
+        public string lastName { get; set; }
+
+        [Required]
+        public string email { get; set; }
+          
+        public string phoneNumber { get; set; }   
+        public int? departmentId { get; set; }
 
         [JsonIgnore]
-        public ICollection<UserDepartment> UserDepartments { get; set; }
+        public Department department { get; set; }
     }
 }
+ 

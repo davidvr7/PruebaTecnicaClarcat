@@ -1,29 +1,23 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PruebaTecnicaAPI.Model;
-
+ 
 public class ApplicationDbContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
     {
     }
 
-    public DbSet<User> Users { get; set; }
     public DbSet<Department> Departments { get; set; }
-    public DbSet<UserDepartment> UserDepartments { get; set; }
+    public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<UserDepartment>()
-            .HasKey(ud => new { ud.UserId, ud.DepartmentId });
-
-        modelBuilder.Entity<UserDepartment>()
-            .HasOne(ud => ud.User)
-            .WithMany(u => u.UserDepartments)
-            .HasForeignKey(ud => ud.UserId);
-
-        modelBuilder.Entity<UserDepartment>()
-            .HasOne(ud => ud.Department)
-            .WithMany(d => d.UserDepartments)
-            .HasForeignKey(ud => ud.DepartmentId);
+        base.OnModelCreating(modelBuilder);
+         
+        modelBuilder.Entity<User>()
+            .HasOne(u => u.department)
+            .WithMany(d => d.users)
+            .HasForeignKey(u => u.departmentId); 
     }
 }
