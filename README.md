@@ -51,20 +51,20 @@ Ademas del CRUD decidi añadir una pagina mas de detalle para aportar valor y un
 Cree un angular-ci.yml ficticio para simular la integracion continua con Azure
 
 
-![alt text](src/assets/Imagenes/1.png)
+![alt text](Imagenes/1.png)
 
-![alt text](src/assets/Imagenes/2.png)
+![alt text](Imagenes/2.png)
 
-![alt text](src/assets/Imagenes/3.png)
+![alt text](Imagenes/3.png)
 
-![alt text](src/assets/Imagenes/4.png)
+![alt text](Imagenes/4.png)
 
-![alt text](src/assets/Imagenes/5.png)
+![alt text](Imagenes/5.png)
 
-![alt text](src/assets/Imagenes/6.png)
+![alt text](Imagenes/6.png)
 
-![alt text](src/assets/Imagenes/7.png)
+![alt text](Imagenes/7.png)
 
-![alt text](src/assets/Imagenes/8.png)
+![alt text](Imagenes/8.png)
 
-![alt text](src/assets/Imagenes/9.png)
+![alt text](Imagenes/9.png)
