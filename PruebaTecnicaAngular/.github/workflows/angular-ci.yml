@@ -1,0 +1,35 @@
+name: Angular CI/CD to Azure
+
+on:
+  push:
+    branches:
+      - main   
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20.14.0' 
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build Angular app
+      run: npm run build -- --configuration=production
+
+    - name: Run tests
+      run: npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+
+    - name: Deploy to Azure App Service
+      if: success() && github.ref == 'refs/heads/main'
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'azure-app'   
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}   
+        package: ./dist/PruebaTecnicaAngular

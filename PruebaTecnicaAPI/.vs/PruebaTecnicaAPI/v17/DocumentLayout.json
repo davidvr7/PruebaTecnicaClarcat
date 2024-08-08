@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\pruebatecnicaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\pruebatecnicaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|c:\\users\\david\\desktop\\prueba tecnica\\pruebatecnicaapi\\pruebatecnicaapi\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{394D66BA-A7DF-4DCA-B921-872E2271CB9E}|PruebaTecnicaAPI\\PruebaTecnicaAPI.csproj|solutionrelative:pruebatecnicaapi\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "PruebaTecnicaAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Dockerfile",
+              "RelativeToolTip": "PruebaTecnicaAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-08T14:04:09.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PruebaTecnicaAPI.http",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\PruebaTecnicaAPI.http",
+              "RelativeDocumentMoniker": "PruebaTecnicaAPI\\PruebaTecnicaAPI.http",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\PruebaTecnicaAPI.http",
+              "RelativeToolTip": "PruebaTecnicaAPI\\PruebaTecnicaAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-08T13:56:39.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PruebaTecnicaAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\appsettings.json",
+              "RelativeToolTip": "PruebaTecnicaAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T13:56:25.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PruebaTecnicaAPI\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:56:23.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Model\\Department.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAPI\\Model\\Department.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Model\\Department.cs",
+              "RelativeToolTip": "PruebaTecnicaAPI\\Model\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:56:20.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "PruebaTecnicaAPI\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "PruebaTecnicaAPI\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:56:04.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Program.cs",
               "RelativeDocumentMoniker": "PruebaTecnicaAPI\\Program.cs",
               "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Program.cs",
               "RelativeToolTip": "PruebaTecnicaAPI\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwAsAAAAnAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T13:41:32.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PruebaTecnicaAPI\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "PruebaTecnicaAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAArwDYAAAAIAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAcwIIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T13:29:07.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\david\\Desktop\\Prueba Tecnica\\PruebaTecnicaAPI\\PruebaTecnicaAPI\\Model\\User.cs",
               "RelativeDocumentMoniker": "PruebaTecnicaAPI\\Model\\User.cs",

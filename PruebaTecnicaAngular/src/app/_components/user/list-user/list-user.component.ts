@@ -4,7 +4,6 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { catchError, finalize } from 'rxjs/operators';
 import { of } from 'rxjs'; 
-import { formatDate } from '@angular/common';
 import { User } from '../../../_model/user';
 import { UserService } from '../../../_services/user.service';
 import { ActivatedRoute } from '@angular/router';
@@ -113,7 +112,7 @@ export class ListUserComponent implements OnInit {
       this.userService.update(user).pipe(
         catchError(error => {
           console.error('Error updating user:', error);
-          return of(false);  // Retorna un observable con `false` en caso de error
+          return of(false); 
         }),
         finalize(() => {
           console.log('Update request complete'); 

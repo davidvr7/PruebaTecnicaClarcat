@@ -97,9 +97,6 @@ namespace PruebaTecnicaAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
-            // Log para depuración
-            Console.WriteLine($"Received user data: {user.firstName}, {user.lastName}, {user.email}, {user.departmentId}");
-
             // Verificar existencia del departamento
             var department = await _context.Departments.FindAsync(user.departmentId);
             if (department == null)
